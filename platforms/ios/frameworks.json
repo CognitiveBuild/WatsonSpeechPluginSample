@@ -1,0 +1,10 @@
+{
+    "libicucore.tbd": 2,
+    "AudioToolbox.framework": 2,
+    "AVFoundation.framework": 2,
+    "CFNetwork.framework": 2,
+    "CoreAudio.framework": 2,
+    "Foundation.framework": 2,
+    "Quartzcore.framework": 2,
+    "Security.framework": 2
+}
