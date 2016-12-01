@@ -28,13 +28,16 @@ NSString *recognitionCallbackId = nil;
     if(sttConfigurations == nil){
         NSString *credentialFilePath = [[NSBundle mainBundle] pathForResource:@"Credentials" ofType:@"plist"];
         NSDictionary *credentials = [[NSDictionary alloc] initWithContentsOfFile:credentialFilePath];
-
+        
         sttConfigurations = [[STTConfiguration alloc] init];
         [sttConfigurations setBasicAuthUsername:credentials[@"STTUsername"]];
         [sttConfigurations setBasicAuthPassword:credentials[@"STTPassword"]];
-        [sttConfigurations setApiURL:@"https://stream.watsonplatform.net/speech-to-text/api"];
+
         [sttConfigurations setAudioCodec:WATSONSDK_AUDIO_CODEC_TYPE_OPUS];
+        [sttConfigurations setAudioSampleRate:WATSONSDK_AUDIO_SAMPLE_RATE_OPUS];
+        [sttConfigurations setAudioFrameSize:WATSONSDK_AUDIO_FRAME_SIZE_OPUS];
         [sttConfigurations setModelName:WATSONSDK_DEFAULT_STT_MODEL];
+        [sttConfigurations setInterimResults:YES];
         [sttConfigurations setContinuous:NO];
     }
     return sttConfigurations;
@@ -53,7 +56,7 @@ NSString *recognitionCallbackId = nil;
     [dict setObject:transcript forKey:@"message"];
     [dict setObject:[sttResult isFinal] ? @"Yes": @"No" forKey:@"isfinal"];
     [dict setObject:[sttResult isCompleted] ? @"Yes": @"No" forKey:@"iscompleted"];
-
+    
     CDVPluginResult *result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsDictionary: dict];
     [result setKeepCallback:[NSNumber numberWithBool:YES]];
     [[self commandDelegate] sendPluginResult:result callbackId: recognitionCallbackId];

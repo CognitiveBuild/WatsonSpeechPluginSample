@@ -13,7 +13,7 @@
 	<key>CFBundleIcons~ipad</key>
 	<dict/>
 	<key>CFBundleIdentifier</key>
-	<string>io.cordova.hellocordova</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -47,6 +47,8 @@
 	<string></string>
 	<key>NSMainNibFile~ipad</key>
 	<string></string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This sample requires microphone access.</string>
 	<key>UIRequiresFullScreen</key>
 	<true/>
 </dict>
