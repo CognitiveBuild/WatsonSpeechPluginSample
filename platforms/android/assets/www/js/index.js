@@ -61,7 +61,7 @@ var app = {
     },
     // Start SpeechToText 
     startSpeechToText: function(){
-        window.WatsonSDK.SpeechToText.recognize(function(data){
+        WatsonSDK.SpeechToText.recognize(function(data){
             // data
             if(data.iscompleted === WatsonSDK.Constants.YES) {
                 // connection closed, ready for another round of speech recognition
@@ -79,7 +79,7 @@ var app = {
     },
     // Start TextToSpeech
     startTextToSpeech: function(text){
-        window.WatsonSDK.TextToSpeech.synthesize(function(data){
+        WatsonSDK.TextToSpeech.synthesize(function(data){
             // success
         }, function(error){
             // error

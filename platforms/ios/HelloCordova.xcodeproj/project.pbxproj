@@ -5,10 +5,8 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
-		13877F0A3C1344338F122FFB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22361833AD61435EB99B1AE7 /* CFNetwork.framework */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
@@ -17,17 +15,19 @@
 		3047A5121AB8059700498E2A /* build-debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */; };
 		3047A5131AB8059700498E2A /* build-release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5101AB8059700498E2A /* build-release.xcconfig */; };
 		3047A5141AB8059700498E2A /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5111AB8059700498E2A /* build.xcconfig */; };
-		3A2F04932B614FF09427D872 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B149C27BF124ECFA74C9617 /* AudioToolbox.framework */; };
-		4DB44B89F629495B86CAC99C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123E6A1804CA409EA72858D0 /* AVFoundation.framework */; };
-		51B86C3EC18C47CABBC05EEC /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFBF952C0FB54D3BA0F98828 /* CoreAudio.framework */; };
-		64BAB1867E5D459BB74B88F5 /* Quartzcore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1FE403FD6B4E9F8F31BCCA /* Quartzcore.framework */; };
-		90D1F61F4C4A4BAC840D98B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E86202A86C470E8BDB4D9F /* Foundation.framework */; };
-		9450981742064EE3AA23F4BB /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A42A04460DD45F9BEAB63CE /* libicucore.tbd */; };
-		A87BB6FC513B4769A3262AB3 /* Credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = F170B4A933FE43AF81BAFA08 /* Credentials.plist */; };
-		BF490FCFA45A4C119CF6039B /* Stt.m in Sources */ = {isa = PBXBuildFile; fileRef = 372E817007EE49E8B078A947 /* Stt.m */; };
-		DBE4F3146FFC47D19510CA3A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC6F73E898B41548529F3FA /* Security.framework */; };
-		E4E087A4A1B7483DAA79C504 /* Tts.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7FF42D4D44B2786AA8902 /* Tts.m */; };
-		FC4DBF1976A34993ACF66ECD /* watsonsdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98EB3648C74400BA6967DE8 /* watsonsdk.framework */; };
+		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		5560174960DE44BFAA07296F /* Stt.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EF108301D14DC697F40F6D /* Stt.m */; };
+		E22F353BDA074FD289FF2F72 /* Tts.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A8D81153744C0B87F7A848 /* Tts.m */; };
+		12DC3EC73DBF48E3A624EB6B /* Credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 206CEA83C6C14021A2258813 /* Credentials.plist */; };
+		2EBCABB1010248B2ABBA06CC /* watsonsdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0F969838AB40DCBDC5C45B /* watsonsdk.framework */; };
+		E0351F7F5C934974B7A5F3AD /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0D1F7766DC44B9AD0772F6 /* libicucore.tbd */; };
+		D869E8DEB2E6427B86D12BB3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89973D58A3414B95BD0A99E1 /* AudioToolbox.framework */; };
+		31D9E8D9EDDD4912A5B48EE1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2908323E9D6248369CDF793C /* AVFoundation.framework */; };
+		E10FA491DA66478D99289453 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7FD5CEBF5B24CD290F68E73 /* CFNetwork.framework */; };
+		B9FF7821DC074BAEBC219A30 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE784FD02D73443D8D022DC9 /* CoreAudio.framework */; };
+		407C5DC281784256B4CC7FA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5BB1F5353384950BB3E857B /* Foundation.framework */; };
+		3592F8A3A2684DDA8B8FF7C9 /* Quartzcore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC208A17091B40FB84DB208D /* Quartzcore.framework */; };
+		A1AB3C0BB4E9460790373771 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBAD1B0D08C48B08E8ECCA8 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,39 +48,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HelloCordova/Images.xcassets; sourceTree = SOURCE_ROOT; };
-		123E6A1804CA409EA72858D0 /* AVFoundation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 0; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		1BB7FF42D4D44B2786AA8902 /* Tts.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = Tts.m; path = WatsonSpeechPlugin/Tts.m; sourceTree = "<group>"; };
+		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "HelloCordova/Images.xcassets"; sourceTree = SOURCE_ROOT; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* HelloCordova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCordova.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		22361833AD61435EB99B1AE7 /* CFNetwork.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 0; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* HelloCordova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HelloCordova.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		302D95F014D2391D003F00A1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
-		3047A50F1AB8059700498E2A /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-debug.xcconfig"; path = "cordova/build-debug.xcconfig"; sourceTree = SOURCE_ROOT; };
-		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
+		3047A50F1AB8059700498E2A /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-debug.xcconfig"; path = cordova/build-debug.xcconfig; sourceTree = SOURCE_ROOT; };
+		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = cordova/build-release.xcconfig; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* HelloCordova-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HelloCordova-Prefix.pch"; sourceTree = "<group>"; };
-		372E817007EE49E8B078A947 /* Stt.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = Stt.m; path = WatsonSpeechPlugin/Stt.m; sourceTree = "<group>"; };
-		45E86202A86C470E8BDB4D9F /* Foundation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 0; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5A42A04460DD45F9BEAB63CE /* libicucore.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 0; includeInIndex = 0; lastKnownFileType = unknown; path = libicucore.tbd; sourceTree = "<group>"; };
-		5B1FE403FD6B4E9F8F31BCCA /* Quartzcore.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 0; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = Quartzcore.framework; path = System/Library/Frameworks/Quartzcore.framework; sourceTree = SDKROOT; };
-		6A5D6D4ED0454FF991F59231 /* Stt.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = Stt.h; path = WatsonSpeechPlugin/Stt.h; sourceTree = "<group>"; };
-		8B149C27BF124ECFA74C9617 /* AudioToolbox.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 0; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		8CC6F73E898B41548529F3FA /* Security.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 0; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = "HelloCordova/CDVLaunchScreen.storyboard"; sourceTree = SOURCE_ROOT; };
 		8D1107310486CEB800E47090 /* HelloCordova-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "HelloCordova-Info.plist"; path = "HelloCordova/HelloCordova-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
-		AF299383C231459A9167EAE8 /* Tts.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = Tts.h; path = WatsonSpeechPlugin/Tts.h; sourceTree = "<group>"; };
-		B98EB3648C74400BA6967DE8 /* watsonsdk.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 0; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = watsonsdk.framework; path = HelloCordova/Plugins/WatsonSpeechPlugin/watsonsdk.framework; sourceTree = "<group>"; };
-		DFBF952C0FB54D3BA0F98828 /* CoreAudio.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 0; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
-		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		F170B4A933FE43AF81BAFA08 /* Credentials.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; path = Credentials.plist; sourceTree = "<group>"; };
-		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = HelloCordova/config.xml; sourceTree = "<group>"; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "HelloCordova/config.xml"; sourceTree = "<group>"; };
+		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		72EF108301D14DC697F40F6D /* Stt.m */ = {isa = PBXFileReference; name = "Stt.m"; path = "WatsonSpeechPlugin/Stt.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		A1A8D81153744C0B87F7A848 /* Tts.m */ = {isa = PBXFileReference; name = "Tts.m"; path = "WatsonSpeechPlugin/Tts.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		B146F3BCA0A14489B69DC213 /* Stt.h */ = {isa = PBXFileReference; name = "Stt.h"; path = "WatsonSpeechPlugin/Stt.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		F960D084CC6B48AAB5730306 /* Tts.h */ = {isa = PBXFileReference; name = "Tts.h"; path = "WatsonSpeechPlugin/Tts.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		206CEA83C6C14021A2258813 /* Credentials.plist */ = {isa = PBXFileReference; name = "Credentials.plist"; path = "Credentials.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
+		4D0F969838AB40DCBDC5C45B /* watsonsdk.framework */ = {isa = PBXFileReference; name = "watsonsdk.framework"; path = "HelloCordova/Plugins/WatsonSpeechPlugin/watsonsdk.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		0A0D1F7766DC44B9AD0772F6 /* libicucore.tbd */ = {isa = PBXFileReference; name = "libicucore.tbd"; path = "usr/lib/libicucore.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		89973D58A3414B95BD0A99E1 /* AudioToolbox.framework */ = {isa = PBXFileReference; name = "AudioToolbox.framework"; path = "System/Library/Frameworks/AudioToolbox.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		2908323E9D6248369CDF793C /* AVFoundation.framework */ = {isa = PBXFileReference; name = "AVFoundation.framework"; path = "System/Library/Frameworks/AVFoundation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		D7FD5CEBF5B24CD290F68E73 /* CFNetwork.framework */ = {isa = PBXFileReference; name = "CFNetwork.framework"; path = "System/Library/Frameworks/CFNetwork.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		BE784FD02D73443D8D022DC9 /* CoreAudio.framework */ = {isa = PBXFileReference; name = "CoreAudio.framework"; path = "System/Library/Frameworks/CoreAudio.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		E5BB1F5353384950BB3E857B /* Foundation.framework */ = {isa = PBXFileReference; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		BC208A17091B40FB84DB208D /* Quartzcore.framework */ = {isa = PBXFileReference; name = "Quartzcore.framework"; path = "System/Library/Frameworks/Quartzcore.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		0EBAD1B0D08C48B08E8ECCA8 /* Security.framework */ = {isa = PBXFileReference; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,15 +90,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
-				9450981742064EE3AA23F4BB /* libicucore.tbd in Frameworks */,
-				3A2F04932B614FF09427D872 /* AudioToolbox.framework in Frameworks */,
-				4DB44B89F629495B86CAC99C /* AVFoundation.framework in Frameworks */,
-				13877F0A3C1344338F122FFB /* CFNetwork.framework in Frameworks */,
-				51B86C3EC18C47CABBC05EEC /* CoreAudio.framework in Frameworks */,
-				90D1F61F4C4A4BAC840D98B7 /* Foundation.framework in Frameworks */,
-				64BAB1867E5D459BB74B88F5 /* Quartzcore.framework in Frameworks */,
-				DBE4F3146FFC47D19510CA3A /* Security.framework in Frameworks */,
-				FC4DBF1976A34993ACF66ECD /* watsonsdk.framework in Frameworks */,
+				2EBCABB1010248B2ABBA06CC /* watsonsdk.framework in Frameworks */,
+				E0351F7F5C934974B7A5F3AD /* libicucore.tbd in Frameworks */,
+				D869E8DEB2E6427B86D12BB3 /* AudioToolbox.framework in Frameworks */,
+				31D9E8D9EDDD4912A5B48EE1 /* AVFoundation.framework in Frameworks */,
+				E10FA491DA66478D99289453 /* CFNetwork.framework in Frameworks */,
+				B9FF7821DC074BAEBC219A30 /* CoreAudio.framework in Frameworks */,
+				407C5DC281784256B4CC7FA8 /* Foundation.framework in Frameworks */,
+				3592F8A3A2684DDA8B8FF7C9 /* Quartzcore.framework in Frameworks */,
+				A1AB3C0BB4E9460790373771 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +115,7 @@
 				1D3623250D0F684500981E51 /* AppDelegate.m */,
 			);
 			name = Classes;
-			path = HelloCordova/Classes;
+			path = "HelloCordova/Classes";
 			sourceTree = SOURCE_ROOT;
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
@@ -150,7 +151,7 @@
 				ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */,
 			);
 			name = "Other Sources";
-			path = HelloCordova;
+			path = "HelloCordova";
 			sourceTree = "<group>";
 		};
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
@@ -159,24 +160,25 @@
 				0207DA571B56EA530066E2B4 /* Images.xcassets */,
 				3047A50E1AB8057F00498E2A /* config */,
 				8D1107310486CEB800E47090 /* HelloCordova-Info.plist */,
-				F170B4A933FE43AF81BAFA08 /* Credentials.plist */,
+				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
+				206CEA83C6C14021A2258813 /* Credentials.plist */,
 			);
 			name = Resources;
-			path = HelloCordova/Resources;
+			path = "HelloCordova/Resources";
 			sourceTree = "<group>";
 		};
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5A42A04460DD45F9BEAB63CE /* libicucore.tbd */,
-				8B149C27BF124ECFA74C9617 /* AudioToolbox.framework */,
-				123E6A1804CA409EA72858D0 /* AVFoundation.framework */,
-				22361833AD61435EB99B1AE7 /* CFNetwork.framework */,
-				DFBF952C0FB54D3BA0F98828 /* CoreAudio.framework */,
-				45E86202A86C470E8BDB4D9F /* Foundation.framework */,
-				5B1FE403FD6B4E9F8F31BCCA /* Quartzcore.framework */,
-				8CC6F73E898B41548529F3FA /* Security.framework */,
-				B98EB3648C74400BA6967DE8 /* watsonsdk.framework */,
+				4D0F969838AB40DCBDC5C45B /* watsonsdk.framework */,
+				0A0D1F7766DC44B9AD0772F6 /* libicucore.tbd */,
+				89973D58A3414B95BD0A99E1 /* AudioToolbox.framework */,
+				2908323E9D6248369CDF793C /* AVFoundation.framework */,
+				D7FD5CEBF5B24CD290F68E73 /* CFNetwork.framework */,
+				BE784FD02D73443D8D022DC9 /* CoreAudio.framework */,
+				E5BB1F5353384950BB3E857B /* Foundation.framework */,
+				BC208A17091B40FB84DB208D /* Quartzcore.framework */,
+				0EBAD1B0D08C48B08E8ECCA8 /* Security.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -202,13 +204,13 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				372E817007EE49E8B078A947 /* Stt.m */,
-				1BB7FF42D4D44B2786AA8902 /* Tts.m */,
-				6A5D6D4ED0454FF991F59231 /* Stt.h */,
-				AF299383C231459A9167EAE8 /* Tts.h */,
+				72EF108301D14DC697F40F6D /* Stt.m */,
+				A1A8D81153744C0B87F7A848 /* Tts.m */,
+				B146F3BCA0A14489B69DC213 /* Stt.h */,
+				F960D084CC6B48AAB5730306 /* Tts.h */,
 			);
 			name = Plugins;
-			path = HelloCordova/Plugins;
+			path = "HelloCordova/Plugins";
 			sourceTree = SOURCE_ROOT;
 		};
 		EB87FDF11871DA420020F90C /* Staging */ = {
@@ -237,8 +239,8 @@
 			dependencies = (
 				301BF551109A68C00062928A /* PBXTargetDependency */,
 			);
-			name = HelloCordova;
-			productName = HelloCordova;
+			name = "HelloCordova";
+			productName = "HelloCordova";
 			productReference = 1D6058910D05DD3D006BFB54 /* HelloCordova.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -250,13 +252,10 @@
 			attributes = {
 				LastUpgradeCheck = 510;
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HelloCordova" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__NON-CLI__" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
-			knownRegions = (
-				en,
-			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectReferences = (
@@ -288,11 +287,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
-				3047A5131AB8059700498E2A /* build-release.xcconfig in Resources */,
-				3047A5141AB8059700498E2A /* build.xcconfig in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
-				3047A5121AB8059700498E2A /* build-debug.xcconfig in Resources */,
-				A87BB6FC513B4769A3262AB3 /* Credentials.plist in Resources */,
+				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
+				12DC3EC73DBF48E3A624EB6B /* Credentials.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,8 +321,8 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				BF490FCFA45A4C119CF6039B /* Stt.m in Sources */,
-				E4E087A4A1B7483DAA79C504 /* Tts.m in Sources */,
+				5560174960DE44BFAA07296F /* Stt.m in Sources */,
+				E22F353BDA074FD289FF2F72 /* Tts.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,18 +347,6 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"HelloCordova/Plugins/WatsonSpeechPlugin\"",
-					"\"HelloCordova/Plugins/WatsonSpeechPlugin\"",
-					"\"HelloCordova/Plugins/WatsonSpeechPlugin\"",
-					"\"HelloCordova/Plugins/WatsonSpeechPlugin\"",
-					"\"HelloCordova/Plugins/WatsonSpeechPlugin\"",
-					"\"HelloCordova/Plugins/WatsonSpeechPlugin\"",
-					"\"HelloCordova/Plugins/WatsonSpeechPlugin\"",
-					"\"HelloCordova/Plugins/WatsonSpeechPlugin\"",
-					"\"HelloCordova/Plugins/WatsonSpeechPlugin\"",
-				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -369,10 +354,14 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "HelloCordova/HelloCordova-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.cordova.hellocordova;
-				PRODUCT_NAME = HelloCordova;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "HelloCordova";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"HelloCordova/Plugins/WatsonSpeechPlugin\"",
+				);
 			};
 			name = Debug;
 		};
@@ -386,26 +375,19 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"HelloCordova/Plugins/WatsonSpeechPlugin\"",
-					"\"HelloCordova/Plugins/WatsonSpeechPlugin\"",
-					"\"HelloCordova/Plugins/WatsonSpeechPlugin\"",
-					"\"HelloCordova/Plugins/WatsonSpeechPlugin\"",
-					"\"HelloCordova/Plugins/WatsonSpeechPlugin\"",
-					"\"HelloCordova/Plugins/WatsonSpeechPlugin\"",
-					"\"HelloCordova/Plugins/WatsonSpeechPlugin\"",
-					"\"HelloCordova/Plugins/WatsonSpeechPlugin\"",
-					"\"HelloCordova/Plugins/WatsonSpeechPlugin\"",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloCordova/HelloCordova-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "HelloCordova/HelloCordova-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.cordova.hellocordova;
-				PRODUCT_NAME = HelloCordova;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "HelloCordova";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"HelloCordova/Plugins/WatsonSpeechPlugin\"",
+				);
 			};
 			name = Release;
 		};
@@ -472,7 +454,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HelloCordova" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__NON-CLI__" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,

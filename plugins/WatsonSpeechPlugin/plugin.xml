@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="WatsonSpeechPlugin"
+    version="1.0.0">
+    <name>Watson Speech Plugin</name>
+    <description>Watson Speech Cordova Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>Watson, Speech, STT, TTS</keywords>
+    <repo>https://github.com/CognitiveBuild/WatsonSpeechPlugin.git</repo>
+    <issue>https://github.com/CognitiveBuild/WatsonSpeechPlugin/issues</issue>
+
+    <js-module src="www/watson-sdk.js" name="WatsonSDK">
+        <clobbers target="window.WatsonSDK" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <framework src="src/android/build.gradle" custom="true" type="gradleReference" />
+
+        <resource-file src="frameworks/speech-android-wrapper-debug.aar" target="WatsonSpeechPlugin/speech-android-wrapper-debug.aar" />
+        <resource-file src="frameworks/speech-android-wrapper-release.aar" target="WatsonSpeechPlugin/speech-android-wrapper-release.aar" />
+
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="Stt">
+              <param name="android-package" value="com.ibm.cio.plugins.Stt" />
+              <param name="onload" value="true" />
+            </feature>
+            <feature name="Tts">
+              <param name="android-package" value="com.ibm.cio.plugins.Tts" />
+              <param name="onload" value="true" />
+            </feature>
+        </config-file>
+
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.INTERNET" />
+            <uses-permission android:name="android.permission.RECORD_AUDIO" />
+            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+            <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+        </config-file>
+
+        <source-file src="src/android/Stt.java" target-dir="src/com/ibm/cio/plugins" />
+        <source-file src="src/android/Tts.java" target-dir="src/com/ibm/cio/plugins" />
+    </platform>
+
+    <!-- ios -->
+    <platform name="ios">
+        <framework src="frameworks/watsonsdk.framework" custom="true" type="projectReference" />
+        <framework src="libicucore.tbd" />
+        <framework src="AudioToolbox.framework" />
+        <framework src="AVFoundation.framework" />
+        <framework src="CFNetwork.framework" />
+        <framework src="CoreAudio.framework" />
+        <framework src="Foundation.framework" />
+        <framework src="Quartzcore.framework" />
+        <framework src="Security.framework" />
+
+        <resource-file src="resources/Credentials.plist" target="Resources/Credentials.plist" />
+
+        <config-file target="config.xml" parent="/*">
+            <feature name="Stt">
+                <param name="ios-package" value="Stt" onload="true" />
+            </feature>
+            <feature name="Tts">
+                <param name="ios-package" value="Tts" onload="true" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/Stt.h" />
+        <source-file src="src/ios/Stt.m" />
+        <header-file src="src/ios/Tts.h" />
+        <source-file src="src/ios/Tts.m" />
+    </platform>
+</plugin>

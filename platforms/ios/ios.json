@@ -22,18 +22,18 @@
         }
     },
     "installed_plugins": {
-        "cordova-plugin-whitelist": {
+        "WatsonSpeechPlugin": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
         },
-        "WatsonSpeechPlugin": {
+        "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
         }
     },
     "dependent_plugins": {},
     "modules": [
         {
-            "file": "plugins/WatsonSpeechPlugin/www/watson-sdk.js",
             "id": "WatsonSpeechPlugin.WatsonSDK",
+            "file": "plugins/WatsonSpeechPlugin/www/watson-sdk.js",
             "pluginId": "WatsonSpeechPlugin",
             "clobbers": [
                 "window.WatsonSDK"
@@ -41,7 +41,7 @@
         }
     ],
     "plugin_metadata": {
-        "cordova-plugin-whitelist": "1.2.2",
-        "WatsonSpeechPlugin": "1.0.0"
+        "WatsonSpeechPlugin": "1.0.0",
+        "cordova-plugin-whitelist": "1.2.2"
     }
 }

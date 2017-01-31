@@ -7,10 +7,10 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-whitelist": {
+        "WatsonSpeechPlugin": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
         },
-        "WatsonSpeechPlugin": {
+        "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
         }
     },

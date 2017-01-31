@@ -19,7 +19,7 @@ import org.json.JSONObject;
  */
 public class Tts extends CordovaPlugin implements ITextToSpeechDelegate {
 
-    public final String TAG = this.getClass().getSimpleName();
+    private final String TAG = this.getClass().getSimpleName();
 
     private CallbackContext synthesizeContext = null;
 
@@ -91,15 +91,13 @@ public class Tts extends CordovaPlugin implements ITextToSpeechDelegate {
     private void initTTS() {
         TTSConfiguration tConfig = new TTSConfiguration();
         // DISCLAIMER: please enter your credentials or token factory in the lines below
-
         tConfig.basicAuthUsername = "<your-username>";
         tConfig.basicAuthPassword = "<your-password>";
         tConfig.codec = TTSConfiguration.CODEC_OPUS;
         tConfig.appContext = this.cordova.getActivity().getApplicationContext();
         tConfig.voice = "en-US_AllisonVoice";
 
-        TextToSpeech.sharedInstance().initWithConfig(tConfig);
-        TextToSpeech.sharedInstance().setDelegate(this);
+        TextToSpeech.sharedInstance().initWithConfig(tConfig, this);
     }
 
     @Override

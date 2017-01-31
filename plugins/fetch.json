@@ -9,8 +9,9 @@
     },
     "WatsonSpeechPlugin": {
         "source": {
-            "type": "local",
-            "path": ".."
+            "type": "git",
+            "url": "https://github.com/CognitiveBuild/WatsonSpeechPlugin.git",
+            "subdir": "."
         },
         "is_top_level": true,
         "variables": {}

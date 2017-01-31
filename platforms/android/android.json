@@ -9,15 +9,15 @@
                 "parents": {
                     "/*": [
                         {
-                            "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
-                            "count": 1
-                        },
-                        {
                             "xml": "<feature name=\"Stt\"><param name=\"android-package\" value=\"com.ibm.cio.plugins.Stt\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
                         },
                         {
                             "xml": "<feature name=\"Tts\"><param name=\"android-package\" value=\"com.ibm.cio.plugins.Tts\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -48,25 +48,26 @@
         }
     },
     "installed_plugins": {
-        "cordova-plugin-whitelist": {
+        "WatsonSpeechPlugin": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
         },
-        "WatsonSpeechPlugin": {
+        "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
         }
     },
     "dependent_plugins": {},
     "modules": [
         {
-            "file": "plugins/WatsonSpeechPlugin/www/watson-sdk.js",
             "id": "WatsonSpeechPlugin.WatsonSDK",
+            "file": "plugins/WatsonSpeechPlugin/www/watson-sdk.js",
+            "pluginId": "WatsonSpeechPlugin",
             "clobbers": [
                 "window.WatsonSDK"
             ]
         }
     ],
     "plugin_metadata": {
-        "cordova-plugin-whitelist": "1.2.2",
-        "WatsonSpeechPlugin": "1.0.0"
+        "WatsonSpeechPlugin": "1.0.0",
+        "cordova-plugin-whitelist": "1.2.2"
     }
 }
