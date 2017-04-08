@@ -58,16 +58,6 @@ public class Stt extends CordovaPlugin implements ISpeechToTextDelegate{
             });
             return true;
         }
-        if(action.equals("stop")){
-            this.cordova.getThreadPool().execute(new Runnable() {
-                @Override
-                public void run() {
-                    stop();
-                }
-            });
-            return true;
-        }
-
         return false;
     }
 
