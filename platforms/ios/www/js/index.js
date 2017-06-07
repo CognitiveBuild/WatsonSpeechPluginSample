@@ -70,7 +70,8 @@ var app = {
 
             var obj = document.getElementById('transcript');
             if(data.isfinal === WatsonSDK.Constants.YES) {
-                // last transcript is returned
+                // final transcript is returned
+                WatsonSDK.SpeechToText.endTransmission();
             }
             obj.innerHTML = data.message;
         }, function(error){

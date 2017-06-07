@@ -35,7 +35,7 @@ NSString *recognitionCallbackId = nil;
         [sttConfigurations setApiURL:@"https://stream.watsonplatform.net/speech-to-text/api"];
         [sttConfigurations setAudioCodec:WATSONSDK_AUDIO_CODEC_TYPE_OPUS];
         [sttConfigurations setModelName:WATSONSDK_DEFAULT_STT_MODEL];
-        [sttConfigurations setContinuous:NO];
+        [sttConfigurations setInterimResults:YES];
     }
     return sttConfigurations;
 }
@@ -46,7 +46,8 @@ NSString *recognitionCallbackId = nil;
  *  @param message  Transcription
  *  @param isEnding If the message is final transcription
  */
-- (void) send:(NSDictionary*) res{
+- (void) send:(NSDictionary*) res {
+
     SpeechToTextResult *sttResult = [[self sttInstance] getResult:res];
     NSString *transcript = ([sttResult transcript] == nil ? @"" : [sttResult transcript]);
     NSMutableDictionary *dict = [[NSMutableDictionary alloc] initWithCapacity:2];
@@ -74,19 +75,22 @@ NSString *recognitionCallbackId = nil;
  *
  *  @param command CDVInvokedUrlCommand*
  */
-- (void) _recognize:(CDVInvokedUrlCommand*) command{
+- (void) _recognize:(CDVInvokedUrlCommand*) command {
     recognitionCallbackId = [command callbackId];
-    [[self sttInstance] recognize:^(NSDictionary* res, NSError* err){
+
+    [[self sttInstance] recognize:^(NSDictionary* res, NSError* err) {
         if(err) {
             [[self sttInstance] endRecognize];
             CDVPluginResult *result = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsString:[err localizedDescription]];
             [[self commandDelegate] sendPluginResult:result callbackId:recognitionCallbackId];
             return;
         }
+
         [self.commandDelegate runInBackground:^{
+
             [self send:res];
         }];
-    }];
+    } dataHandler:nil powerHandler:nil];
 }
 
 /**
