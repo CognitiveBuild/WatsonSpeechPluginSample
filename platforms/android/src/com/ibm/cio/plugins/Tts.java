@@ -14,6 +14,8 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.IOException;
+
 /**
  * Created by mihui on 5/29/16.
  */
@@ -70,13 +72,16 @@ public class Tts extends CordovaPlugin implements ITextToSpeechDelegate {
             @Override
             public void run() {
                 JSONArray result = new JSONArray();
-                JSONObject list = TextToSpeech.sharedInstance().getVoices();
 
                 try {
+                    JSONObject list = TextToSpeech.sharedInstance().getVoices();
                     result.put(0, TextToSpeech.sharedInstance().getVoice());
                     result.put(1, list);
                     callbackContext.success(result);
                 } catch (JSONException e) {
+                    e.printStackTrace();
+                    callbackContext.error(e.getMessage());
+                } catch (IOException e) {
                     e.printStackTrace();
                     callbackContext.error(e.getMessage());
                 }
