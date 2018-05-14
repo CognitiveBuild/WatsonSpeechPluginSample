@@ -1,20 +1,72 @@
 {
-  "name": "Watson Speech Plugin",
-  "version": "1.0.0",
+  "_args": [
+    [
+      {
+        "raw": "/Users/mihui/Documents/Projects/CognitiveBuild/WatsonSpeechPlugin",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/Users/mihui/Documents/Projects/CognitiveBuild/WatsonSpeechPlugin",
+        "spec": "/Users/mihui/Documents/Projects/CognitiveBuild/WatsonSpeechPlugin",
+        "type": "directory"
+      },
+      "/Users/mihui/Documents/Projects/CognitiveBuild/WatsonSpeechPluginSample"
+    ]
+  ],
+  "_from": "../WatsonSpeechPlugin",
+  "_id": "WatsonSpeechPlugin@1.0.0",
+  "_inCache": true,
+  "_location": "/WatsonSpeechPlugin",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/Users/mihui/Documents/Projects/CognitiveBuild/WatsonSpeechPlugin",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/Users/mihui/Documents/Projects/CognitiveBuild/WatsonSpeechPlugin",
+    "spec": "/Users/mihui/Documents/Projects/CognitiveBuild/WatsonSpeechPlugin",
+    "type": "directory"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "file:../WatsonSpeechPlugin",
+  "_shasum": "eaa05cff509edff894db1881e6d341843b6382a9",
+  "_shrinkwrap": null,
+  "_spec": "/Users/mihui/Documents/Projects/CognitiveBuild/WatsonSpeechPlugin",
+  "_where": "/Users/mihui/Documents/Projects/CognitiveBuild/WatsonSpeechPluginSample",
+  "author": {
+    "name": "mihui"
+  },
+  "bugs": {
+    "url": "https://github.com/CognitiveBuild/WatsonSpeechPlugin/issues"
+  },
   "cordova": {
     "id": "WatsonSpeechPlugin",
     "platforms": [
       "android",
-      "ios",
+      "ios"
     ]
   },
+  "dependencies": {},
   "description": "Watson Speech Cordova Plugin",
-  "repository": "https://github.com/CognitiveBuild/WatsonSpeechPlugin.git",
+  "devDependencies": {},
+  "gitHead": "430f09137260a397f4aa302f659c83ef9d9cee2f",
+  "homepage": "https://github.com/CognitiveBuild/WatsonSpeechPlugin#readme",
   "issue": "https://github.com/CognitiveBuild/WatsonSpeechPlugin/issues",
   "keywords": [
     "watson",
     "cordova"
   ],
-  "author": "mihui",
-  "license": "Apache 2.0"
+  "license": "Apache 2.0",
+  "name": "WatsonSpeechPlugin",
+  "optionalDependencies": {},
+  "readme": "# Watson Speech SDK Plugin for iOS and Android\n[![Language: Objective-C](https://img.shields.io/badge/objective--c-2.0-orange.svg?style=flat)](https://en.wikipedia.org/wiki/Objective-C)\n[![Language: Java](https://img.shields.io/badge/java-android-orange.svg?style=flat)](http://java.com/)\n[![Language: JavaScript](https://img.shields.io/badge/javascript-es5.0-orange.svg?style=flat)](https://www.javascript.com/)\n[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/CognitiveBuild/WatsonSpeechPlugin/master/LICENSE)\n\n# Installation\n\nTo install the Watson Speech Plugin in your Cordova Project, run in terminal:\n```shell\ncordova plugin add https://github.com/CognitiveBuild/WatsonSpeechPlugin.git\n```\n\n# Credentials\n\n* iOS: Update your username/password of the Speech-to-Text and Text-to-Speech services in Credential.plist\n* Android: Update in Java code of the native Plugins\n\n# Basic JavaScript APIs\n\n## Speech-to-Text\n```javascript\nWatsonSDK.SpeechToText.recognize(function(data){\n    // data\n    if(data.iscompleted === WatsonSDK.Constants.YES) {\n        // connection closed, ready for another round of speech recognition\n        return;\n    }\n\n    if(data.isfinal === WatsonSDK.Constants.YES) {\n        // last transcript is returned, the WebSocket is automatically disconnected\n    }\n    // evaluate the transcription\n    console.log(data.message);\n}, function(error){\n    // error\n});\n```\n## Text-to-Speech\n\n```javascript\nvar text = 'Hello World!';\nWatsonSDK.TextToSpeech.synthesize(function(data){\n    // success\n}, function(error){\n    // error\n}, [text]);\n```\n## Text-to-Speech with Customizations\n\n```javascript\nvar text = 'Hello World!';\nvar customization_id = 'your-customization-id';\nWatsonSDK.TextToSpeech.synthesize(function(data){\n    // success\n}, function(error){\n    // error\n}, [text, customization_id]);\n```\n\n# Uninstall\n\nTo uninstall the Watson Speech Plugin from your Corodva Project, run in terminal:\n```shell\ncordova plugin remove WatsonSpeechPlugin\n```\n\n# License\nCopyright 2017 GCG GBS CTO Office under [the Apache 2.0 license](LICENSE).\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CognitiveBuild/WatsonSpeechPlugin.git"
+  },
+  "version": "1.0.0"
 }

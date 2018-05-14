@@ -1,19 +1,18 @@
 {
-    "cordova-plugin-whitelist": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-whitelist@1"
-        },
-        "is_top_level": true,
-        "variables": {}
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
     },
-    "WatsonSpeechPlugin": {
-        "source": {
-            "type": "git",
-            "url": "https://github.com/CognitiveBuild/WatsonSpeechPlugin.git",
-            "subdir": "."
-        },
-        "is_top_level": true,
-        "variables": {}
-    }
+    "is_top_level": true,
+    "variables": {}
+  },
+  "WatsonSpeechPlugin": {
+    "source": {
+      "type": "local",
+      "path": "/Users/mihui/Documents/Projects/CognitiveBuild/WatsonSpeechPluginSample/node_modules/WatsonSpeechPlugin"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
 }
