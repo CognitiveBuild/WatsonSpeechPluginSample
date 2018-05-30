@@ -24,4 +24,5 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <plugin name="WatsonSpeechPlugin" spec="../WatsonSpeechPlugin" />
+    <engine name="android" spec="~7.0.0" />
 </widget>

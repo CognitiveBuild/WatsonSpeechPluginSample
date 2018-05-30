@@ -1,0 +1,19 @@
+{
+  "name": "io.cordova.hellocordova",
+  "version": "0.0.1",
+  "displayName": "HelloCordova",
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "WatsonSpeechPlugin": {}
+    }
+  },
+  "dependencies": {
+    "cordova-android": "^7.0.0",
+    "cordova-plugin-whitelist": "1",
+    "WatsonSpeechPlugin": "../WatsonSpeechPlugin"
+  }
+}
