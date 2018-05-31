@@ -5,105 +5,7 @@
     <option name="COMMAND_LINE_OPTIONS" value="--stacktrace --debug" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e99c26c-de98-4b1f-bcf7-5330c3ca8139" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__speech_android_wrapper_debug__aar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/CordovaLib/CordovaLib.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change beforePath="$PROJECT_DIR$/../../config.xml" afterPath="$PROJECT_DIR$/../../config.xml" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/AndroidManifest.xml" afterPath="$PROJECT_DIR$/CordovaLib/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build.gradle" afterPath="$PROJECT_DIR$/CordovaLib/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/cordova.gradle" afterPath="$PROJECT_DIR$/CordovaLib/cordova.gradle" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/project.properties" afterPath="$PROJECT_DIR$/CordovaLib/project.properties" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaActivity.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaActivity.java" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaBridge.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaBridge.java" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaClientCertRequest.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaClientCertRequest.java" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaInterface.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaInterface.java" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaInterfaceImpl.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaInterfaceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaWebView.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaWebView.java" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaWebViewImpl.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaWebViewImpl.java" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/NativeToJsMessageQueue.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/NativeToJsMessageQueue.java" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/engine/SystemWebViewEngine.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/engine/SystemWebViewEngine.java" />
-      <change beforePath="$PROJECT_DIR$/WatsonSpeechPlugin/hellocordova-build.gradle" afterPath="$PROJECT_DIR$/WatsonSpeechPlugin/hellocordova-build.gradle" />
-      <change beforePath="$PROJECT_DIR$/WatsonSpeechPlugin/speech-android-wrapper-debug.aar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WatsonSpeechPlugin/speech-android-wrapper-release.aar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android.json" afterPath="$PROJECT_DIR$/android.json" />
-      <change beforePath="$PROJECT_DIR$/assets/www/cordova-js-src/android/nativeapiprovider.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/www/cordova-js-src/android/promptbasednativeapi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/www/cordova-js-src/exec.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/www/cordova-js-src/platform.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/www/cordova-js-src/plugin/android/app.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/www/cordova.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/www/cordova_plugins.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/www/css/index.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/www/img/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/www/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/www/js/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/www/plugins/WatsonSpeechPlugin/www/watson-sdk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/cordova/.jshintrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cordova/Api.js" afterPath="$PROJECT_DIR$/cordova/Api.js" />
-      <change beforePath="$PROJECT_DIR$/cordova/android_sdk_version" afterPath="$PROJECT_DIR$/cordova/android_sdk_version" />
-      <change beforePath="$PROJECT_DIR$/cordova/check_reqs.bat" afterPath="$PROJECT_DIR$/cordova/check_reqs.bat" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/Adb.js" afterPath="$PROJECT_DIR$/cordova/lib/Adb.js" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/AndroidManifest.js" afterPath="$PROJECT_DIR$/cordova/lib/AndroidManifest.js" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/AndroidProject.js" afterPath="$PROJECT_DIR$/cordova/lib/AndroidProject.js" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/AndroidStudio.js" afterPath="$PROJECT_DIR$/cordova/lib/AndroidStudio.js" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/android_sdk_version.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/build.js" afterPath="$PROJECT_DIR$/cordova/lib/build.js" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/builders/AntBuilder.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/builders/GenericBuilder.js" afterPath="$PROJECT_DIR$/cordova/lib/builders/GenericBuilder.js" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/builders/GradleBuilder.js" afterPath="$PROJECT_DIR$/cordova/lib/builders/GradleBuilder.js" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/builders/builders.js" afterPath="$PROJECT_DIR$/cordova/lib/builders/builders.js" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/check_reqs.js" afterPath="$PROJECT_DIR$/cordova/lib/check_reqs.js" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/device.js" afterPath="$PROJECT_DIR$/cordova/lib/device.js" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/emulator.js" afterPath="$PROJECT_DIR$/cordova/lib/emulator.js" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/install-device.bat" afterPath="$PROJECT_DIR$/cordova/lib/install-device.bat" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/install-emulator.bat" afterPath="$PROJECT_DIR$/cordova/lib/install-emulator.bat" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/list-devices" afterPath="$PROJECT_DIR$/cordova/lib/list-devices" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/list-devices.bat" afterPath="$PROJECT_DIR$/cordova/lib/list-devices.bat" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/list-emulator-images" afterPath="$PROJECT_DIR$/cordova/lib/list-emulator-images" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/list-emulator-images.bat" afterPath="$PROJECT_DIR$/cordova/lib/list-emulator-images.bat" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/list-started-emulators" afterPath="$PROJECT_DIR$/cordova/lib/list-started-emulators" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/list-started-emulators.bat" afterPath="$PROJECT_DIR$/cordova/lib/list-started-emulators.bat" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/log.js" afterPath="$PROJECT_DIR$/cordova/lib/log.js" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/plugin-build.gradle" afterPath="$PROJECT_DIR$/cordova/lib/plugin-build.gradle" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/pluginHandlers.js" afterPath="$PROJECT_DIR$/cordova/lib/pluginHandlers.js" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/prepare.js" afterPath="$PROJECT_DIR$/cordova/lib/prepare.js" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/retry.js" afterPath="$PROJECT_DIR$/cordova/lib/retry.js" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/run.js" afterPath="$PROJECT_DIR$/cordova/lib/run.js" />
-      <change beforePath="$PROJECT_DIR$/cordova/lib/start-emulator.bat" afterPath="$PROJECT_DIR$/cordova/lib/start-emulator.bat" />
-      <change beforePath="$PROJECT_DIR$/cordova/version" afterPath="$PROJECT_DIR$/cordova/version" />
-      <change beforePath="$PROJECT_DIR$/platform_www/cordova.js" afterPath="$PROJECT_DIR$/platform_www/cordova.js" />
-      <change beforePath="$PROJECT_DIR$/platform_www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platform_www/cordova_plugins.js" />
-      <change beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
-      <change beforePath="$PROJECT_DIR$/res/drawable-land-hdpi/screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/drawable-land-ldpi/screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/drawable-land-mdpi/screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/drawable-land-xhdpi/screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/drawable-port-hdpi/screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/drawable-port-ldpi/screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/drawable-port-mdpi/screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/drawable-port-xhdpi/screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/mipmap-hdpi/icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/mipmap-ldpi/icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/mipmap-mdpi/icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/mipmap-xhdpi/icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/xml/config.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change beforePath="$PROJECT_DIR$/src/com/ibm/cio/plugins/Stt.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/ibm/cio/plugins/Tts.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/io/cordova/hellocordova/MainActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/org/apache/cordova/whitelist/WhitelistPlugin.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../plugins/android.json" afterPath="$PROJECT_DIR$/../../plugins/android.json" />
-    </list>
+    <list default="true" id="f2d6e054-252a-4bbf-b714-58c277d663a8" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -122,43 +24,6 @@
         <projects_view />
       </state>
     </system>
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="hellocordova-build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WatsonSpeechPlugin/hellocordova-build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tts.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ibm/cio/plugins/Tts.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Stt.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ibm/cio/plugins/Stt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-369">
-              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -3369,16 +3234,9 @@
       </map>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/WatsonSpeechPlugin/hellocordova-build.gradle" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="86" />
-    <option name="y" value="105" />
+    <option name="x" value="72" />
+    <option name="y" value="23" />
     <option name="width" value="1872" />
     <option name="height" value="1177" />
   </component>
@@ -3413,7 +3271,6 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -3429,6 +3286,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
@@ -3448,70 +3307,16 @@
               <item name="android" type="b2602c69:ProjectViewProjectNode" />
               <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="WatsonSpeechPlugin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="WatsonSpeechPlugin" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Desktop/Apps/Tools/Android/SDK" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="device.picker.selection" value="Nexus_5X_API_P" />
   </component>
   <component name="RunDashboard">
@@ -3550,7 +3355,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -3685,39 +3490,39 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2e99c26c-de98-4b1f-bcf7-5330c3ca8139" name="Default" comment="" />
-      <created>1527669534689</created>
+      <changelist id="f2d6e054-252a-4bbf-b714-58c277d663a8" name="Default" comment="" />
+      <created>1527732598521</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1527669534689</updated>
+      <updated>1527732598521</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="23" width="1872" height="1177" extended-state="6" />
+    <frame x="49" y="23" width="1872" height="1177" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972677" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295562" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972677" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295562" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -3733,31 +3538,5 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WatsonSpeechPlugin/hellocordova-build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ibm/cio/plugins/Tts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ibm/cio/plugins/Stt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-369">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

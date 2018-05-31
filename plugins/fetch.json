@@ -9,8 +9,8 @@
   },
   "WatsonSpeechPlugin": {
     "source": {
-      "type": "local",
-      "path": "/Users/mihui/Documents/Projects/CognitiveBuild/WatsonSpeechPluginSample/node_modules/WatsonSpeechPlugin"
+      "type": "registry",
+      "id": "https://github.com/CognitiveBuild/WatsonSpeechPlugin.git"
     },
     "is_top_level": true,
     "variables": {}

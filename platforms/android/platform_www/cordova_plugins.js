@@ -12,8 +12,8 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
-  "WatsonSpeechPlugin": "1.0.0",
-  "cordova-plugin-whitelist": "1.2.2"
+  "cordova-plugin-whitelist": "1.3.3",
+  "WatsonSpeechPlugin": "1.0.0"
 };
 // BOTTOM OF METADATA
 });

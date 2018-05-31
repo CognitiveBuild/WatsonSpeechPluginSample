@@ -1,0 +1,10 @@
+repositories {
+  flatDir {
+    dirs 'src/main/WatsonSpeechPlugin'
+  }
+}
+
+dependencies {
+  debugImplementation name: 'speech-android-wrapper-debug', ext: 'aar'
+  releaseImplementation name: 'speech-android-wrapper-release', ext: 'aar'
+}

@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: speech-android-wrapper-debug:@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/speech-android-wrapper-debug.aar/d820026cb73f110664f54b3a4ec00e82/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/speech-android-wrapper-debug.aar/d820026cb73f110664f54b3a4ec00e82/jars/classes.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/speech-android-wrapper-debug.aar/d820026cb73f110664f54b3a4ec00e82/jars/libs/jna.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/speech-android-wrapper-debug.aar/d820026cb73f110664f54b3a4ec00e82/jars/libs/java_websocket.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/speech-android-wrapper-debug.aar/d820026cb73f110664f54b3a4ec00e82/jars/libs/commons-io-2.4.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/speech-android-wrapper-debug.aar/b5938b481048d0ce0a6af15f9ee5ed49/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/speech-android-wrapper-debug.aar/b5938b481048d0ce0a6af15f9ee5ed49/jars/libs/commons-io-2.4.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/speech-android-wrapper-debug.aar/b5938b481048d0ce0a6af15f9ee5ed49/jars/libs/java_websocket.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/speech-android-wrapper-debug.aar/b5938b481048d0ce0a6af15f9ee5ed49/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/speech-android-wrapper-debug.aar/b5938b481048d0ce0a6af15f9ee5ed49/jars/libs/jna.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

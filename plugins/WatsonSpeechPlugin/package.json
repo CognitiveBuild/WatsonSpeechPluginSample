@@ -2,39 +2,57 @@
   "_args": [
     [
       {
-        "raw": "/Users/mihui/Documents/Projects/CognitiveBuild/WatsonSpeechPlugin",
+        "raw": "https://github.com/CognitiveBuild/WatsonSpeechPlugin.git",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/Users/mihui/Documents/Projects/CognitiveBuild/WatsonSpeechPlugin",
-        "spec": "/Users/mihui/Documents/Projects/CognitiveBuild/WatsonSpeechPlugin",
-        "type": "directory"
+        "rawSpec": "https://github.com/CognitiveBuild/WatsonSpeechPlugin.git",
+        "spec": "git+https://github.com/CognitiveBuild/WatsonSpeechPlugin.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:CognitiveBuild/WatsonSpeechPlugin.git",
+          "sshUrl": "git+ssh://git@github.com/CognitiveBuild/WatsonSpeechPlugin.git",
+          "httpsUrl": "git+https://github.com/CognitiveBuild/WatsonSpeechPlugin.git",
+          "gitUrl": "git://github.com/CognitiveBuild/WatsonSpeechPlugin.git",
+          "shortcut": "github:CognitiveBuild/WatsonSpeechPlugin",
+          "directUrl": "https://raw.githubusercontent.com/CognitiveBuild/WatsonSpeechPlugin/master/package.json"
+        }
       },
       "/Users/mihui/Documents/Projects/CognitiveBuild/WatsonSpeechPluginSample"
     ]
   ],
-  "_from": "../WatsonSpeechPlugin",
+  "_from": "git+https://github.com/CognitiveBuild/WatsonSpeechPlugin.git",
   "_id": "WatsonSpeechPlugin@1.0.0",
   "_inCache": true,
   "_location": "/WatsonSpeechPlugin",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/Users/mihui/Documents/Projects/CognitiveBuild/WatsonSpeechPlugin",
+    "raw": "https://github.com/CognitiveBuild/WatsonSpeechPlugin.git",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/Users/mihui/Documents/Projects/CognitiveBuild/WatsonSpeechPlugin",
-    "spec": "/Users/mihui/Documents/Projects/CognitiveBuild/WatsonSpeechPlugin",
-    "type": "directory"
+    "rawSpec": "https://github.com/CognitiveBuild/WatsonSpeechPlugin.git",
+    "spec": "git+https://github.com/CognitiveBuild/WatsonSpeechPlugin.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:CognitiveBuild/WatsonSpeechPlugin.git",
+      "sshUrl": "git+ssh://git@github.com/CognitiveBuild/WatsonSpeechPlugin.git",
+      "httpsUrl": "git+https://github.com/CognitiveBuild/WatsonSpeechPlugin.git",
+      "gitUrl": "git://github.com/CognitiveBuild/WatsonSpeechPlugin.git",
+      "shortcut": "github:CognitiveBuild/WatsonSpeechPlugin",
+      "directUrl": "https://raw.githubusercontent.com/CognitiveBuild/WatsonSpeechPlugin/master/package.json"
+    }
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "file:../WatsonSpeechPlugin",
-  "_shasum": "eaa05cff509edff894db1881e6d341843b6382a9",
+  "_resolved": "git+https://github.com/CognitiveBuild/WatsonSpeechPlugin.git#b9925913b3be36d5a12b53f98555369232867f68",
+  "_shasum": "345e478b6d838ca533a26a4c29bc472530084017",
   "_shrinkwrap": null,
-  "_spec": "/Users/mihui/Documents/Projects/CognitiveBuild/WatsonSpeechPlugin",
+  "_spec": "https://github.com/CognitiveBuild/WatsonSpeechPlugin.git",
   "_where": "/Users/mihui/Documents/Projects/CognitiveBuild/WatsonSpeechPluginSample",
   "author": {
     "name": "mihui"
@@ -52,7 +70,7 @@
   "dependencies": {},
   "description": "Watson Speech Cordova Plugin",
   "devDependencies": {},
-  "gitHead": "430f09137260a397f4aa302f659c83ef9d9cee2f",
+  "gitHead": "b9925913b3be36d5a12b53f98555369232867f68",
   "homepage": "https://github.com/CognitiveBuild/WatsonSpeechPlugin#readme",
   "issue": "https://github.com/CognitiveBuild/WatsonSpeechPlugin/issues",
   "keywords": [
